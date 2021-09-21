@@ -110,5 +110,7 @@ Note that this was the easy way to *create* your website, but it does come at a 
 .gs-section-03 p {
      font-size: 20px;
 }
+.gs-section-03 p {
+     color: green}
 
 </style>
