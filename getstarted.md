@@ -54,3 +54,64 @@ Note that this was the easy way to *create* your website, but it does come at a 
 }
 
 </style>
+
+#ADD THESE ELEMENTS TO CSS STYLE SHEET
+          ###
+          ###  CSS RULES:
+          ###
+          ###  body {...}  applies to everything in body
+          ###  body p {...}  only paragraphs in body
+          ###  
+          ###  .pretty-text {...} references a class
+          ###  <div class="pretty-text">
+          ###
+          ###  #ryan {...} references an id
+          ###  <div id="ryan">
+          ###
+
+
+
+               <style>
+
+               .pretty-text {
+                  margin-top: 100px;
+                  margin-bottom: 100px;
+                  padding-left: 30px;
+                  padding-right: 30px;
+                  text-align: justify;
+               }
+
+               .pretty-text p {
+                   line-height: 1.8
+               }
+
+               .pretty-text h1 {
+                   color: darkred;
+                   font-size: 40px;
+                }
+
+               .pretty-text h2 {
+                   color: darkred;
+                   font-size: 30px;
+                   margin-top: 60px;
+                }
+
+                .pretty-text img {
+                   border: 1px solid #ddd;
+                   border-radius: 8px;
+                   padding: 5px;
+                   width: 400px;
+                   display: block;
+                   margin-left: auto;
+                   margin-right: auto;
+                   width: 50%;
+                   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                               0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                }
+
+                .pretty-text img:hover {
+                   box-shadow: 0 0 3px 1px rgba(0, 140, 186, 0.5);
+                }
+
+                </style>
+
