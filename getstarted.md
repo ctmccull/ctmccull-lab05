@@ -23,7 +23,7 @@ Fork this project by clicking the __*Fork*__ button at the top right corner of t
 
 </div>
 
-<div class="pretty-text" markdown="1">
+<div class="gs-section-02" markdown="1">
 
 ### 2. Rename the project to `<yourusername>.github.io`
 
@@ -31,11 +31,15 @@ Click on __*Settings*__ at the top (the cog icon) and on that page you'll have a
 
 </div>
 
+<div class="gs-section-03" markdown="1">
+
 ### 3. Customize your website settings
 
 Edit the `_config.yml` file to change any settings you want. To edit the file, click on it to view the file and then click on the pencil icon to edit it (watch the video tutorial above if you're confused).  The settings in the file are self-explanatory and there are comments inside the file to help you understand what each setting does. Any line that begins with a hashtag (`#`) is a comment, and the other lines are actual settings.
 
 Note that in the video above only one setting in the `_config.yml` file is edited. **You should actually go through the rest of the settings as well. Don't be lazy, go through all the settings!**
+
+</div>
 
 ### 4. Congratulations! You have a website!
 
@@ -57,7 +61,7 @@ Note that this was the easy way to *create* your website, but it does come at a 
 
 <style>
 
-               .pretty-text {
+               .gs-section-02 {
                   margin-top: 100px;
                   margin-bottom: 100px;
                   padding-left: 30px;
@@ -65,22 +69,22 @@ Note that this was the easy way to *create* your website, but it does come at a 
                   text-align: justify;
                }
 
-               .pretty-text p {
+               .gs-section-02 p {
                    line-height: 1.8
                }
 
-               .pretty-text h1 {
+               .gs-section-02 h1 {
                    color: darkred;
                    font-size: 40px;
                 }
 
-               .pretty-text h2 {
+               .gs-section-02 h3 {
                    color: darkred;
                    font-size: 30px;
                    margin-top: 60px;
                 }
 
-                .pretty-text img {
+                .gs-section-02 img {
                    border: 1px solid #ddd;
                    border-radius: 8px;
                    padding: 5px;
@@ -93,9 +97,18 @@ Note that this was the easy way to *create* your website, but it does come at a 
                                0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 }
 
-                .pretty-text img:hover {
+                .gs-section-02 img:hover {
                    box-shadow: 0 0 3px 1px rgba(0, 140, 186, 0.5);
                 }
 
                 </style>
+<style>
 
+.gs-section-03 h3 { 
+     color: blue }
+
+.gs-section-03 p {
+     font-size: 20px;
+}
+
+</style>
