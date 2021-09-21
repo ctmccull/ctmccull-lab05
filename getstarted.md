@@ -55,23 +55,7 @@ Note that this was the easy way to *create* your website, but it does come at a 
 
 </style>
 
-#ADD THESE ELEMENTS TO CSS STYLE SHEET
-          ###
-          ###  CSS RULES:
-          ###
-          ###  body {...}  applies to everything in body
-          ###  body p {...}  only paragraphs in body
-          ###  
-          ###  .pretty-text {...} references a class
-          ###  <div class="pretty-text">
-          ###
-          ###  #ryan {...} references an id
-          ###  <div id="ryan">
-          ###
-
-
-
-               <style>
+<style>
 
                .pretty-text {
                   margin-top: 100px;
